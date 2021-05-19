@@ -1,0 +1,122 @@
+.header-img{
+    background-image: url(./immg/background2.jpg);
+    width: 100%;
+    height: 900px;
+    background-size: cover;
+    text-align: center;
+    
+}
+
+/* reset css */
+
+*{
+    margin: 0px;
+    border: 0px;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+.header__text{
+    font-family: cursive;
+    color: #fff;
+    animation: headerText linear 10s infinite;
+
+}
+
+.header__text-header{
+    font-size: 48px;
+    font-family: cursive;
+    color: #fff;
+    text-shadow: 2px 4px green;
+}
+
+.header__text-shop{
+    font-size: 80px;
+    text-shadow: 1px 4px yellow;
+    padding: 16px 0px;
+}
+
+.header__text-contain{
+    padding: 8px 0px;
+}
+
+@keyframes headerText{
+    from{
+        transform: translateY(0%);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(100%);
+        opacity: 1;
+    }
+}
+
+.contain{
+    margin-top: 72px;
+    text-align: center;
+}
+
+.servise-content{
+    display: flex;
+}
+
+.servise-content-drink{
+    width: 50%;
+}
+
+.servise-content-name{
+    padding: 70px;
+    color: #3fd0d4;
+    font-size: 100px;
+}
+
+.drinking{
+    position: relative;
+    text-align: center;
+    background-image: url(./immg/hot-choco.jpg);
+    background-size: cover;
+}
+
+.MENU{
+    color: red;
+    font-size: 40px;    
+}
+
+.drinking-list{
+    text-align: left;
+}
+
+.drink-item{
+    line-height: 40px;
+    font-size: 30px;
+    color: #fff;
+    text-shadow: 2px 4px green;
+    margin-left: 40%;
+}
+
+.MENU_ELSE{
+    background-image: url(./immg/mon-an-vat-ha-noi-11-1.jpg) ;
+}
+
+.call{
+    padding: 12px;
+    margin: 24px auto;
+    width: 120px;
+    background-color: #3fd0d4;
+    border-radius: 6px;
+}
+
+.call:hover{
+    background-color: #1cf7ff;
+    color: #fff;
+}
+
+.footer{
+    height: 150px;
+    width: 100%;
+    background-color: #3fd0d4;
+    text-align: center;
+    line-height: 150px;
+    font-size: 30px;
+    color: #fff;
+}
